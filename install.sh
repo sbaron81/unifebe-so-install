@@ -4,7 +4,7 @@
 sudo cp ./bin/* /usr/local/bin/
 sudo chmod +x /usr/local/bin/*
 
-sudo apt update && sudo apt install -y git python3.14-venv
+sudo apt update && sudo apt install -y git python3.14-venv python3-pip
 
 
 # Download the services
