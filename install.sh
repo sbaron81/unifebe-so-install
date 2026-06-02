@@ -4,6 +4,9 @@
 sudo cp ./bin/* /usr/local/bin/
 sudo chmod +x /usr/local/bin/*
 
+sudo apt update && sudo apt install -y git python3.14-venv
+
+
 # Download the services
 sudo git clone https://github.com/sbaron81/unifebe-so-pp2.git /opt/unifebe-so-pp2
 
